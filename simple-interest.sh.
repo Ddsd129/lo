@@ -8,6 +8,7 @@ read t
 interest=$(echo "$p * $r * $t / 100" | bc)
 echo "L'intérêt simple est : $interest"
 git clone https://github.com/Ddsd129/gkpbt-css-circle.git
+cd lo
 git checkout -b bug-fix-typo
 echo "Correction de fautes" >> README.md
 git commit -am "Correction de fautes dans README"
